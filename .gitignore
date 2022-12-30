@@ -11,6 +11,8 @@ node_modules
 dist
 dist-ssr
 .env
+populate.js
+jsondata.json
 *.local
 
 # Editor directories and files
