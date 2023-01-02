@@ -1,62 +1,61 @@
-import mongoose from "mongoose";
+import mongoose from 'mongoose'
 
 const DataSchema = new mongoose.Schema(
- {
-  end_year:{
-   type: mongoose.Types.ObjectId,
+  {
+    end_year: {
+      type: String,
+    },
+    intensity: {
+      type: Number,
+    },
+    sector: {
+      type: String,
+    },
+    topic: {
+      type: String,
+    },
+    insight: {
+      type: String,
+    },
+    url: {
+      type: String,
+    },
+    region: {
+      type: String,
+    },
+    start_year: {
+      type: String,
+    },
+    impact: {
+      type: String,
+    },
+    added: {
+      type: String,
+    },
+    published: {
+      type: String,
+    },
+    country: {
+      type: String,
+    },
+    relevance: {
+      type: Number,
+    },
+    pestle: {
+      type: String,
+    },
+    source: {
+      type: String,
+    },
+    title: {
+      type: String,
+    },
+    likelihood: {
+      type: Number,
+    },
   },
-  intensity:{
-   type: Number,
-  },
-  sector:{
-   type: String,
-  },
-  topic:{
-   type: String,
-  },
-  insight:{
-   type: String,
-  } ,
-  url:{
-   type: String,
-  } ,
-  region:{
-   type: String,
-  } ,
-  start_year:{
-   type: String,
-  } ,
-  impact:{
-   type: String,
-  } ,
-  added:{
-   type: mongoose.Types.ObjectId,
-  } ,
-  published:{
-   type: mongoose.Types.ObjectId,
-  } ,
-  country:{
-   type: String,
-  } ,
-  relevance:{
-   type: Number,
-  } ,
-  pestle:{
-   type: String,
-  } ,
-  source:{
-   type: String,
-  } ,
-  title:{
-   type: String,
-  } ,
-  likelihood:{
-   type: Number,
-  } ,
-   
- }
- ,{
-  timestamps: true,
- }
+  {
+    timestamps: true,
+  }
 )
 export default mongoose.model('dashboard', DataSchema)
