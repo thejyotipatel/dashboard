@@ -1,0 +1,33 @@
+/* styling */
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+/* media querry */
+// @media (min-width: 50em) {
+// }
+
+/* Hover on desktop and revmove on mobile */
+// @media (hover: hover) {
+// }
+
+button {
+  font-family: inherit;
+  outline: none;
+  border: none;
+  transition: $ts-400;
+  cursor: pointer;
+  cursor: pointer;
+}
+.logo {
+  // margin: $size-100 0;
+  h1 {
+    // font-style: italic;
+    color: $clr-neutral-100;
+    font-size: $fs-400 + 0.5;
+    font-weight: $fw-900;
+  }
+}
+ 
