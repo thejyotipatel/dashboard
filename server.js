@@ -26,7 +26,11 @@ app.use(errorHandlerMiddleware)
 const port = process.env.PORT || 5000
 const start = async () => {
   try {
+<<<<<<< HEAD
     await connectDB(process.env.MONGO_URL1)
+=======
+    await connectDB(process.env.MONGO_URL)
+>>>>>>> ea482491f416450130f6bfd949e48d13508eb192
     // const jsonPro = JSON.parse(
     // await readFile(new URL('./jsondata.json', import.meta.url))
     // )

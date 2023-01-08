@@ -58,4 +58,8 @@ const DataSchema = new mongoose.Schema(
     timestamps: true,
   }
 )
+<<<<<<< HEAD
 export default mongoose.model('dashbord', DataSchema)
+=======
+export default mongoose.model('dashboard', DataSchema)
+>>>>>>> ea482491f416450130f6bfd949e48d13508eb192

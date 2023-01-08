@@ -15,7 +15,7 @@ populate.js
 jsondata.json
 test.js
 *.local
-
+  
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -23,6 +23,6 @@ test.js
 .DS_Store
 *.suo
 *.ntvs*
-*.njsproj
-*.sln
+*.njsproj 
+*.sln 
 *.sw?

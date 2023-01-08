@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 import axios from 'axios'
 
 function App() {
+=======
+import { useState } from 'react'
+import axios from 'axios'
+
+function App() {
+  const [count, setCount] = useState(0)
+
+>>>>>>> ea482491f416450130f6bfd949e48d13508eb192
   const getData = async () => {
     console.log('get data :---')
     try {
